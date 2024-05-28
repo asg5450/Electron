@@ -10,7 +10,7 @@ function createWindow() {
     },
   });
 
-  win.loadFile("index.html");
+  win.loadURL("http://localhost:8080/?view=1");
 }
 
 app.whenReady().then(() => {
